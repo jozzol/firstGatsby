@@ -1,11 +1,9 @@
 import * as React from 'react';
+import Layout from '../components/layout';
 
 const HomePage = ()=>{
   return (
-    <div>
-      <h1>Home</h1>
-      <p>First paragraph</p>
-    </div>
+    <Layout title='Index page' heading='Index'/>
   )
 };
 
