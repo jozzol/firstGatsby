@@ -25,8 +25,8 @@ const BlogPost = ({data}) => {
     </Layout>
   )
 }
-
-export const query = graphql`
+// this query only works for bring 1 single image and requires all pages to keep the same format in the mdx. else I would be bringing null and that is causing errors
+export const query = graphql` 
 query ($id: String) {
   mdx(id: {eq: $id}) {
     body

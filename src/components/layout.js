@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 import { container, Cheading, navlinks, navlinkitem, navlinktext, siteTitle, } from './layout.module.css';
+import '@fontsource/roboto/300.css';
 
 const Layout = ({title, heading, children}) => {
 
